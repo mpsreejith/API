@@ -7,7 +7,7 @@ app=Flask(__name__)
 
 
 try:
-    connect=mysql.connector.connect(host='localhost',username='root',passwd='123wer')
+    connect=mysql.connector.connect(host='localhost',username='root',passwd='***')
     if connect.is_connected():
         print("MYSQL DB Connected")
 except  Exception as e:

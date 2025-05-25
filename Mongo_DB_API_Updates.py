@@ -4,7 +4,7 @@ import pymongo
 app=Flask(__name__)
 
 connection = (
-    pymongo.MongoClient("mongodb+srv://sreejithmp007:anandam007@cluster0.x9rrkbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
+    pymongo.MongoClient("mongodb+srv://sreejithmp007:*****@cluster0.x9rrkbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
 
 database=connection['APItask']
 
